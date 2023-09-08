@@ -1,0 +1,24 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+
+@import "../../node_modules/bootstrap";
+
+
+body {
+    font: normal normal normal 16px/24px Lato;
+    font-size: 16px;
+}
+
+a{color:black;}
+a:hover{color:green;}
+
+
+// --bs-nav-link-color : header 顏色改不了....
+
